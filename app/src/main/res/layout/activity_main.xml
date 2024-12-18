@@ -1,47 +1,52 @@
-<LinearLayout android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:background="#5A84AD"
     android:gravity="center"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical">
+
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="90dp"
         android:text="CALCULATOR"
-        android:textColor="#DC0631"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#DC0631" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:textColor="#000000"
         android:background="#D0D8E0"
         android:text="addition"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#000000" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:textColor="#000000"
         android:background="#D0D8E0"
         android:text="subtraction"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#000000" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:textColor="#000000"
         android:background="#D0D8E0"
         android:text="multiplication"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#000000" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:textColor="#000000"
         android:background="#D0D8E0"
         android:text="division"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#000000" />
 
 </LinearLayout>
